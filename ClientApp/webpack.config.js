@@ -6,7 +6,8 @@ module.exports = {
     entry: {
         index: './src/ts/index.ts',
         validation: './src/ts/validations.ts',
-		site: './src/ts/site.ts'
+        site: './src/ts/site.ts',
+        apexgrid:'./src/ts/apexgridHelper.ts'
     },
     output: {
         filename: '[name].entry.js',

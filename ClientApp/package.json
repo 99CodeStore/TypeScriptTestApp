@@ -10,7 +10,8 @@
     "bootstrap-icons": "^1.11.3",
     "jquery": "^3.7.1",
     "jquery-validation": "^1.20.0",
-    "jquery-validation-unobtrusive": "^4.0.0"
+    "jquery-validation-unobtrusive": "^4.0.0",
+    "lit": "^2.7.4"
   },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.5",
@@ -19,11 +20,13 @@
     "eslint": "^9.17.0",
     "mini-css-extract-plugin": "^2.8.1",
     "sass": "^1.72.0",
-    "sass-loader": "^14.1.1", 
+    "sass-loader": "^14.1.1",
     "ts-loader": "^9.5.1",
     "typescript": "^5.4.3",
     "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "@faker-js/faker": "^8.0.1",
+    "vite": "^4.3.6"
   },
   "scripts": {
     "build": "webpack",
